@@ -1,0 +1,34 @@
+{
+  "status": "active",
+  "timestamp": 1678886400,
+  "aria2_version": "1.36.0",
+  "session_id": "e9a8b7c6d5f4e3a2b1c0d9e8f7a6b5c4",
+  "global_stat": {
+    "download_speed": 1234567,
+    "upload_speed": 123456,
+    "num_active": 3,
+    "num_waiting": 5,
+    "num_stopped": 10
+  },
+  "tracked_uris": [
+    {
+      "uri": "magnet:?xt=urn:btih:abcdefghijklmnopqrstuvwxyz123456",
+      "status": "active",
+      "gid": "abcdefghijklmnop"
+    },
+    {
+      "uri": "http://example.com/file.iso",
+      "status": "waiting",
+      "gid": "qrstuvwxyzabcdef"
+    }
+  ],
+  "system_info": {
+    "cpu_usage": 0.25,
+    "memory_usage": 512,
+    "disk_space_free": 10240
+  },
+  "custom_data": {
+    "node_id": "node123",
+    "region": "us-east-1"
+  }
+}
